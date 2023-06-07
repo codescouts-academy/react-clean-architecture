@@ -1,0 +1,33 @@
+.log {
+  background: rgb(40, 44, 52);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+
+  display: "flex";
+  flex-direction: column;
+}
+
+.logContainer {
+  margin-top: 5px;
+  margin-inline: 20px;
+}
+
+.text {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 5px 10px;
+  color: #ddd;
+  border: 1px solid rgba(236, 239, 241, 7%);
+}
+
+.addLog {
+  margin-top: 5px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+.addLog:hover {
+  background-color: #ffe102;
+  border: 1px solid transparent;
+}
