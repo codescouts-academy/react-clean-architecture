@@ -1,6 +1,5 @@
+import { Folders, Logs } from "./components";
 import styles from "./Home.module.css";
-
-import { Logs, Folders } from "./components";
 
 export const Home = () => {
   return (

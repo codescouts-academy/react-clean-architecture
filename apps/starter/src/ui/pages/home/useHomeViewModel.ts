@@ -1,5 +1,5 @@
-import { useCallback, useRef } from "react";
 import { useResolve } from "@codescouts/di";
+import { useCallback, useRef } from "react";
 
 import { TestUseCase } from "@/application/test-use-case";
 import { useLogger } from "@/infrastructure/services";
@@ -10,13 +10,13 @@ export const useHomeViewModel = () => {
     const testUseCase = useResolve(TestUseCase);
 
     const test = useCallback(() => {
-        if (!input.current!.value) return;
+        if (!input.current?.value) return;
 
-        testUseCase.execute(input.current!.value);
+        testUseCase.execute(input.current?.value);
 
-        input.current!.value = "";
-        input.current!.focus();
-    }, [testUseCase])
+        input.current.value = "";
+        input.current.focus();
+    }, [testUseCase]);
 
-    return { logs, test, input }
-}
+    return { logs, test, input };
+};

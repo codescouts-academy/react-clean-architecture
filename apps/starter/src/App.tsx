@@ -1,9 +1,11 @@
-import { DependencyInjectionContainer } from "@codescouts/di"
+import { DependencyInjectionContainer } from "@codescouts/di";
 import { useEvents } from "@codescouts/ui";
-import { buildDependencies } from "./di"
+
 import { NewLogRegisteredHandler } from "@/domain/events";
-import { Home } from "./ui/pages"
+
+import { buildDependencies } from "./di";
 import { Header } from "./ui/components";
+import { Home } from "./ui/pages";
 
 export const App = () => {
     useEvents(() => {
@@ -17,5 +19,5 @@ export const App = () => {
                 <Home />
             </div>
         </DependencyInjectionContainer>
-    )
-}
+    );
+};

@@ -1,4 +1,5 @@
 import { Handler } from "@codescouts/events";
+
 import { NewLogRegistered } from "./NewLogRegistered";
 
 export class NewLogRegisteredHandler extends Handler<NewLogRegistered> {
@@ -6,7 +7,7 @@ export class NewLogRegisteredHandler extends Handler<NewLogRegistered> {
     super(NewLogRegistered);
   }
 
-  protected handle(event: NewLogRegistered): void | Promise<any> {
+  protected handle(event: NewLogRegistered): void | Promise<unknown> {
     const message = `New log registered ${event.log.format()}`;
 
     setTimeout(() => {

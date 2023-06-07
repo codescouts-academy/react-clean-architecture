@@ -1,8 +1,8 @@
 import { IEventDispatcher } from "@codescouts/events";
 
+import { NewLogRegistered } from "@/domain/events/NewLogRegistered";
 import { Log } from "@/domain/model/Log";
 import { LoggerService } from "@/domain/services/LoggerService";
-import { NewLogRegistered } from "@/domain/events/NewLogRegistered";
 
 export class TestUseCase {
     constructor(private readonly loggerService: LoggerService,

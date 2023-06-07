@@ -1,2 +1,2 @@
-export * from './NewLogRegistered';
-export * from './NewLogRegisteredHandler';
+export * from "./NewLogRegistered";
+export * from "./NewLogRegisteredHandler";

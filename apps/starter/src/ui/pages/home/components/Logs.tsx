@@ -1,5 +1,5 @@
-import styles from "./Logs.module.css";
 import { useHomeViewModel } from "../useHomeViewModel";
+import styles from "./Logs.module.css";
 
 export const Logs = () => {
   const { logs, test, input } = useHomeViewModel();
