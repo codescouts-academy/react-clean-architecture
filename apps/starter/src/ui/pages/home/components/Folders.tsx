@@ -13,7 +13,8 @@ public/
 │
 src/
 ├── application/ Our use cases
-│   └── test-use-case.ts --> Here we model the use cases
+│   ├── add-log-user-case.test --> add-log-use-case tests
+│   └── add-log-use-case.ts --> Here we model the use cases
 ├── domain/ Our Business logic
 │   ├── events --> Here we model the domain events
 │   ├── model --> Here we model our business logic
@@ -24,7 +25,7 @@ src/
 │       └── LoggerService.ts
 │
 ├── ui/ React things
-│   ├── components/ --> Stateless components
+│   ├── components/ --> stateless components
 │   └── pages/
 │       └── home/
 │           ├── Home.tsx --> Page component (View)

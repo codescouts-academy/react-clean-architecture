@@ -1,8 +1,8 @@
-import { useHomeViewModel } from "../useHomeViewModel";
 import styles from "./Logs.module.css";
+import { useLogViewModel } from "./useLogViewModel";
 
 export const Logs = () => {
-  const { logs, test, input } = useHomeViewModel();
+  const { logs, test, input } = useLogViewModel();
 
   return (
     <div className={styles.log}>

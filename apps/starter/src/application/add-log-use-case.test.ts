@@ -3,14 +3,14 @@ import { mock } from "@codescouts/test/lib/vitest";
 
 import { LoggerService } from "@/domain/services";
 
-import { TestUseCase } from "./test-use-case";
+import { AddLogUserCase } from "./add-log-use-case";
 
 
 describe("Test use case should", () => {
     test("call save once time", () => {
         const loggerService = mock<LoggerService>();
         const eventDispatcher = mock<IEventDispatcher>();
-        const useCase = new TestUseCase(loggerService, eventDispatcher);
+        const useCase = new AddLogUserCase(loggerService, eventDispatcher);
 
         useCase.execute("Message");
 
@@ -23,7 +23,7 @@ describe("Test use case should", () => {
     test("dispatch the log registered once", () => {
         const loggerService = mock<LoggerService>();
         const eventDispatcher = mock<IEventDispatcher>();
-        const useCase = new TestUseCase(loggerService, eventDispatcher);
+        const useCase = new AddLogUserCase(loggerService, eventDispatcher);
 
         useCase.execute("Message");
 
