@@ -7,7 +7,6 @@
 <h1 align="center">
  Clean architecture template for react and vite 🚀
 </h1>
-🏗️
 <p align="center">
   React Clean Architecture Template 🏗️
   <br />
