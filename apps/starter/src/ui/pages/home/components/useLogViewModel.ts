@@ -9,7 +9,7 @@ export const useLogViewModel = () => {
     const { logs } = useLogger();
     const testUseCase = useResolve(AddLogUserCase);
 
-    const test = useCallback(() => {
+    const addLog = useCallback(() => {
         if (!input.current?.value) return;
 
         testUseCase.execute(input.current?.value);
@@ -18,5 +18,5 @@ export const useLogViewModel = () => {
         input.current.focus();
     }, [testUseCase]);
 
-    return { logs, test, input };
+    return { logs, addLog, input };
 };

@@ -2,7 +2,7 @@ import styles from "./Logs.module.css";
 import { useLogViewModel } from "./useLogViewModel";
 
 export const Logs = () => {
-  const { logs, test, input } = useLogViewModel();
+  const { logs, addLog, input } = useLogViewModel();
 
   return (
     <div className={styles.log}>
@@ -14,11 +14,11 @@ export const Logs = () => {
           placeholder="Write log"
           onKeyDown={(e) => {
             if (e.key === "Enter") {
-              test();
+              addLog();
             }
           }}
         />
-        <button className={styles.addLog} onClick={test}>
+        <button className={styles.addLog} onClick={addLog}>
           Add Log
         </button>
       </div>
