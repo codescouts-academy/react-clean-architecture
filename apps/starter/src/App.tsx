@@ -1,7 +1,7 @@
 import { DependencyInjectionContainer } from "@codescouts/di";
 import { useEvents } from "@codescouts/ui";
 
-import { NewLogRegisteredHandler } from "@/domain/events";
+import { NewLogRegisteredHandler } from "@/infrastructure/events";
 
 import { buildDependencies } from "./di";
 import { Header } from "./ui/components";

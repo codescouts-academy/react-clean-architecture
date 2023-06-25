@@ -14,14 +14,16 @@ public/
 src/
 ├── application/ Our use cases
 │   ├── add-log-user-case.test --> add-log-use-case tests
-│   └── add-log-use-case.ts --> Here we model the use cases
+│   └── add-log-use-case.ts --> Use cases, our domain entry point
 ├── domain/ Our Business logic
-│   ├── events --> Here we model the domain events
-│   ├── model --> Here we model our business logic
-│   └── services --> Here exists the domain services (only abstractions)
+│   ├── events --> Domain events
+│   ├── model --> Doman entities
+│   └── services --> Domain services (only abstractions)
+│       └── LoggerService.ts (abstraction)
 │
 ├── infrastructure/ Our external services implementations
-│   └── services
+│   ├── events --> Event handlers
+│   └── services -> Implementation of domain services
 │       └── LoggerService.ts
 │
 ├── ui/ React things
