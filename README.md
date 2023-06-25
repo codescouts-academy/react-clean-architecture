@@ -13,6 +13,7 @@
   <br />
   <a href="https://github.com/codescouts-academy/react-clean-architecture/stargazers">Stars are welcome 😊</a>
   <a href="https://github.com/codescouts-academy/react-clean-architecture/issues">Report an error 🐛</a>
+  <a href="https://www.codescouts.academy/courses/arquitectura-frontend/">Contact us 🤔</a>
 </p>
 
 ## 🚀 Getting started
@@ -37,11 +38,11 @@ npm run dev
 
 ## 🥋 Dependencies
 
--   🧪 codescouts/test -> Jest & Vite mocking library easy to use
--   💉 codescouts/di -> agnostic ependency injection container
--   ⚡️ codescouts/events -> agnostic library to create and handle domain events
--   🛟 codescouts/store -> reactive store to allow update ui from domain
--   👩‍💻  codescouts/ui -> components for events and di only for react
+- 🧪 codescouts/test -> Jest & Vite mocking library easy to use
+- 💉 codescouts/di -> agnostic ependency injection container
+- ⚡️ codescouts/events -> agnostic library to create and handle domain events
+- 🛟 codescouts/store -> reactive store to allow update ui from domain
+- 👩‍💻 codescouts/ui -> components for events and di only for react
 
 ## 👩‍💻 Project explanation
 
