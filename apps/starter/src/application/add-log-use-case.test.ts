@@ -5,7 +5,6 @@ import { LoggerService } from "@/domain/services";
 
 import { AddLogUserCase } from "./add-log-use-case";
 
-
 describe("Test use case should", () => {
     test("call save once time", () => {
         const loggerService = mock<LoggerService>();

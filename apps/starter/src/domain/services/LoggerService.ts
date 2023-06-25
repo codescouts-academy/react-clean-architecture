@@ -1,4 +1,4 @@
-import { Log } from "../model/Log";
+import { Log } from "@/domain/model/Log";
 
 export interface LoggerService {
     logs: Log[],

@@ -12,10 +12,10 @@ export const Header = () => {
       <span
         style={{
           fontWeight: "bold",
-          fontSize: "2em",
+          fontSize: "1.7rem",
         }}
       >
-        <span>{"<Code "}</span>
+        <span>{"<Code"}</span>
         <span
           style={{
             color: "#ffe102",
