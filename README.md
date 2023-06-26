@@ -15,6 +15,15 @@
   <a href="https://github.com/codescouts-academy/react-clean-architecture/issues">Report an error 🐛</a>
   <a href="https://www.codescouts.academy/courses/arquitectura-frontend/">Contact us 🤔</a>
 </p>
+<p>
+  <a href="https://library.codescouts.academy/" title="Go to project documentation" target="_blank"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"/></a>
+
+</p>
+<span>
+  <img src="https://img.shields.io/badge/maintained-yes-blue" alt="maintained - yes">
+  <a title="Go to contributions doc"><img src="https://img.shields.io/badge/contributions-welcome-blue" alt="contributions - welcome"></a>
+  <a href="https://library.codescouts.academy/docs/clean-architecture/"><img src="https://img.shields.io/badge/Clean-Architecture-2ea44f" alt="Clean - Architecture"></a>
+</span>
 
 ## 🚀 Getting started
 
@@ -82,3 +91,6 @@ src/
 
 Si encuentras algún error, crees que hay cosas por mejorar o simplemente quieres contribuir, eres bienvenido/a.
 Solo realiza un fork y envíanos tu PR 🙏.
+
+## LICENSE
+Released under [MIT](/LICENSE) by [@codescouts-academy](https://github.com/codescouts-academy).
