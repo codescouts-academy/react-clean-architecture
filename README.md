@@ -16,7 +16,7 @@
   <a href="https://www.codescouts.academy/courses/arquitectura-frontend/">Contact us 🤔</a>
 </p>
 <p>
-  <a href="https://library.codescouts.academy/" title="Go to project documentation" target="_blank"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"/></a>
+  <a href="https://scouts.fyi/library/" title="Go to project documentation" target="_blank"><img src="https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge" alt="view - Documentation"/></a>
 
 </p>
 <span>
@@ -89,8 +89,9 @@ src/
 
 ## 🤔 Contributing
 
-Si encuentras algún error, crees que hay cosas por mejorar o simplemente quieres contribuir, eres bienvenido/a.
-Solo realiza un fork y envíanos tu PR 🙏.
+If you find any mistake, you think there are things to improve or simply want to contribute, you are welcome.
+Just make a fork and send us your PR 🙏.
 
 ## LICENSE
+
 Released under [MIT](/LICENSE) by [@codescouts-academy](https://github.com/codescouts-academy).
