@@ -8,16 +8,14 @@ import { Header } from "./ui/components";
 import { Home } from "./ui/pages";
 
 export const App = () => {
-    useEvents(() => {
-        new NewLogRegisteredHandler();
-    });
+  useEvents(NewLogRegisteredHandler);
 
-    return (
-        <DependencyInjectionContainer builder={buildDependencies}>
-            <div className="app">
-                <Header />
-                <Home />
-            </div>
-        </DependencyInjectionContainer>
-    );
+  return (
+    <DependencyInjectionContainer builder={buildDependencies}>
+      <div className="app">
+        <Header />
+        <Home />
+      </div>
+    </DependencyInjectionContainer>
+  );
 };

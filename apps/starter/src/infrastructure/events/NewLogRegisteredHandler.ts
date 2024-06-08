@@ -7,7 +7,7 @@ export class NewLogRegisteredHandler extends Handler<NewLogRegistered> {
     super(NewLogRegistered);
   }
 
-  protected handle(event: NewLogRegistered): void | Promise<unknown> {
+  protected handle(event: NewLogRegistered): void {
     const message = `New log registered ${event.log.format()}`;
 
     setTimeout(() => {
