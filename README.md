@@ -36,13 +36,13 @@ npx degit codescouts-academy/react-clean-architecture my-app
 🏂 Install dependencies
 
 ```sh
-npm i
+pnpm i
 ```
 
 🏁 Start
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ## 🥋 Dependencies
