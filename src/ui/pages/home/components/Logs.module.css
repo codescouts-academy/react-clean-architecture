@@ -2,14 +2,16 @@
   background: rgb(40, 44, 52);
   color: rgb(255, 255, 255);
   border-radius: 5px;
-
+  width: fit-content;
   display: "flex";
   flex-direction: column;
 }
 
 .logContainer {
-  margin-top: 5px;
-  margin-inline: 20px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
 }
 
 .text {
